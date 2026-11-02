@@ -131,6 +131,27 @@
         "插一句",
         "有种"
       ]
+    },
+    "黄丽": {
+      "aliases": [
+        "黄丽",
+        "黄姐"
+      ],
+      "max_sentence": 35,
+      "banned": [],
+      "catchphrases": [
+        "我的人"
+      ]
+    },
+    "戴国庆": {
+      "aliases": [
+        "戴国庆"
+      ],
+      "max_sentence": 35,
+      "banned": [],
+      "catchphrases": [
+        "少来这套"
+      ]
     }
   }
 }

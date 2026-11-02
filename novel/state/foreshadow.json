@@ -5,11 +5,14 @@
     "payoff_plan": "第6章",
     "priority": "高",
     "planted": 1,
-    "last_touch": 3,
-    "status": "活跃",
+    "last_touch": 6,
+    "status": "已回收",
     "log": [
-      "第3章：7/4 9:58，戴录音笔的男人已在西街营业厅诱导许朵朵"
-    ]
+      "第3章：7/4 9:58，戴录音笔的男人已在西街营业厅诱导许朵朵",
+      "第4章：申诉落地：五百、靓号、道歉，否则找媒体",
+      "第5章：录像与六次申诉记录到手；最后通牒周六十二点"
+    ],
+    "paid": 6
   },
   "F007": {
     "id": "F007",
@@ -49,11 +52,12 @@
     "payoff_plan": "第6-8章",
     "priority": "中",
     "planted": 2,
-    "last_touch": 3,
-    "status": "活跃",
+    "last_touch": 6,
+    "status": "已回收",
     "log": [
       "第3章：清单两天成19单"
-    ]
+    ],
+    "paid": 6
   },
   "F009": {
     "id": "F009",
@@ -72,6 +76,37 @@
     "priority": "高",
     "planted": 3,
     "last_touch": 3,
+    "status": "活跃",
+    "log": []
+  },
+  "F004": {
+    "id": "F004",
+    "desc": "赵启明'妥善处理'的暗示，前世他事后说'没让他私下给钱'",
+    "payoff_plan": "弧3",
+    "priority": "高",
+    "planted": 4,
+    "last_touch": 4,
+    "status": "活跃",
+    "log": []
+  },
+  "F013": {
+    "id": "F013",
+    "desc": "营业厅拾音监控七天一覆盖",
+    "payoff_plan": "第5章",
+    "priority": "中",
+    "planted": 4,
+    "last_touch": 5,
+    "status": "已回收",
+    "log": [],
+    "paid": 5
+  },
+  "F001": {
+    "id": "F001",
+    "desc": "戴国庆出门打电话叫'钱哥'；镇中心满仓通讯里戴金珠子的中年男人",
+    "payoff_plan": "弧3揭开幕后",
+    "priority": "高",
+    "planted": 6,
+    "last_touch": 6,
     "status": "活跃",
     "log": []
   }
