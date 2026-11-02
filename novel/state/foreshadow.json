@@ -1,1 +1,78 @@
-{}
+{
+  "F006": {
+    "id": "F006",
+    "desc": "7月4日10点，揣录音笔的男人走进西街营业厅",
+    "payoff_plan": "第6章",
+    "priority": "高",
+    "planted": 1,
+    "last_touch": 3,
+    "status": "活跃",
+    "log": [
+      "第3章：7/4 9:58，戴录音笔的男人已在西街营业厅诱导许朵朵"
+    ]
+  },
+  "F007": {
+    "id": "F007",
+    "desc": "林舟手背上的412早于任务下发，老周起疑",
+    "payoff_plan": "弧3或第2卷，老周的试探",
+    "priority": "中",
+    "planted": 1,
+    "last_touch": 2,
+    "status": "活跃",
+    "log": [
+      "第2章：老周追问：任务散会后才定，林舟却先写上了；林舟用七月系数搪塞"
+    ]
+  },
+  "F010": {
+    "id": "F010",
+    "desc": "城东那个网格长前世两年后因虚假开卡被锁工号",
+    "payoff_plan": "弧3，并入养卡链",
+    "priority": "低",
+    "planted": 1,
+    "last_touch": 1,
+    "status": "活跃",
+    "log": []
+  },
+  "F011": {
+    "id": "F011",
+    "desc": "老周的退二线申请：月底自己撕",
+    "payoff_plan": "第18章",
+    "priority": "中",
+    "planted": 1,
+    "last_touch": 1,
+    "status": "活跃",
+    "log": []
+  },
+  "F008": {
+    "id": "F008",
+    "desc": "刘胖子赌约：清单月底成30单，请全网格吃一个月猪脚饭",
+    "payoff_plan": "第6-8章",
+    "priority": "中",
+    "planted": 2,
+    "last_touch": 3,
+    "status": "活跃",
+    "log": [
+      "第3章：清单两天成19单"
+    ]
+  },
+  "F009": {
+    "id": "F009",
+    "desc": "老周教的看光交箱识商机：红家跳纤标签上的装机日期",
+    "payoff_plan": "第7章",
+    "priority": "高",
+    "planted": 2,
+    "last_touch": 2,
+    "status": "活跃",
+    "log": []
+  },
+  "F012": {
+    "id": "F012",
+    "desc": "老陈母亲住在灵溪镇山坳，打电话要跑到村口",
+    "payoff_plan": "弧2台风夜",
+    "priority": "高",
+    "planted": 3,
+    "last_touch": 3,
+    "status": "活跃",
+    "log": []
+  }
+}
