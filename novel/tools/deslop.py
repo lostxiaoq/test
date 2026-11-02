@@ -36,6 +36,9 @@ RULES = [
     ("summary-moral", "blocking",
      r"(?:这|那)(?:就是|便是|才是)[^。！？\n]{0,12}(?:意义|道理|代价|成长|答案|真相)",
      "替读者总结升华：删掉，让事件自己说话", 0),
+    ("narrator-comment", "blocking",
+     r"^不叫[^，。“”]{1,8}[，,]\s*叫[^，。“”]{1,8}。$|算是(?:默认|答应|回答|表态|认可|同意|回应)|这话不假|此话不假|言下之意|意思很明显|意思很清楚|显而易见",
+     "叙述者跳出来点评或解释（替读者解读称呼、动作、沉默的含义）：删掉，让读者自己看出来", 0),
     ("realize-tell", "advisory",
      r"(?:他|她|我)(?:终于)?(?:明白|意识到|懂得)了",
      "顿悟式陈述：改成行为变化", 2),
@@ -68,7 +71,9 @@ def check(text: str):
         rx = re.compile(pat)
         hits = []
         for ln, line in enumerate(lines, 1):
-            for m in rx.finditer(line):
+            # 叙述者点评只查叙述部分，人物台词里说"算是默认"是允许的
+            target = QUOTE.sub("", line) if rid == "narrator-comment" else line
+            for m in rx.finditer(target):
                 hits.append((ln, m.start() + 1, m.group(0)))
         if len(hits) > allow:
             for ln, col, frag in hits:
