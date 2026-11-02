@@ -74,8 +74,9 @@ def check_chapter(text, c):
 
 def check_outline(text, c):
     issues = []
+    text = re.sub(r"<!--.*?-->", "", text, flags=re.S)  # 忽略填写说明注释
     for field in c["outline_required"]:
-        m = re.search(rf"^\s*[-*]?\s*\**{re.escape(field)}\**\s*[:：]\s*(.*)$", text, re.M)
+        m = re.search(rf"^[ \t]*[-*]?[ \t]*\**{re.escape(field)}\**[ \t]*[:：][ \t]*(.*)$", text, re.M)
         if not m or not m.group(1).strip() or m.group(1).strip() in {"TODO", "待定", "-"}:
             issues.append(("blocking", "outline-field", f"细纲缺少字段：{field}"))
     return issues, {}
