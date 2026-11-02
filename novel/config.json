@@ -1,0 +1,18 @@
+{
+  "book": {
+    "title": "（待定）",
+    "platform": "咪咕",
+    "target_words": 300000,
+    "volumes": 2,
+    "chapter_words": 2500
+  },
+  "chapter": {
+    "chapter_cjk_min": 2200,
+    "chapter_cjk_max": 3200,
+    "paragraph_cjk_max": 150,
+    "sentence_cjk_max": 40,
+    "long_sentence_ratio_max": 0.15,
+    "dialogue_ratio_min": 0.20,
+    "opening_window": 300
+  }
+}
