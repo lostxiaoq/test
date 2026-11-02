@@ -1,0 +1,136 @@
+{
+  "_说明": "voice_check.py 使用。aliases：识别说话人的称呼（在引号外的叙述里出现）。max_sentence：单句最大字数。banned：绝不会说的词。catchphrases：口头禅（统计出现频率）。",
+  "characters": {
+    "林舟": {
+      "aliases": [
+        "林舟",
+        "林博士"
+      ],
+      "max_sentence": 30,
+      "banned": [
+        "赋能",
+        "抓手",
+        "闭环",
+        "颗粒度",
+        "拉通"
+      ],
+      "catchphrases": [
+        "数字不会骗人"
+      ]
+    },
+    "老周": {
+      "aliases": [
+        "老周",
+        "周建平"
+      ],
+      "max_sentence": 30,
+      "banned": [
+        "数据",
+        "颗粒度",
+        "赋能"
+      ],
+      "catchphrases": [
+        "急什么",
+        "晓得",
+        "你小子"
+      ]
+    },
+    "老陈": {
+      "aliases": [
+        "老陈",
+        "陈国栋"
+      ],
+      "max_sentence": 10,
+      "banned": [
+        "不归我管"
+      ],
+      "catchphrases": [
+        "上去看",
+        "光衰"
+      ]
+    },
+    "赵启明": {
+      "aliases": [
+        "赵启明",
+        "赵总"
+      ],
+      "max_sentence": 40,
+      "banned": [
+        "我的问题",
+        "我错了"
+      ],
+      "catchphrases": [
+        "我不要听客观原因",
+        "我早就强调过",
+        "会议记录"
+      ]
+    },
+    "刘胖子": {
+      "aliases": [
+        "刘胖子",
+        "刘建",
+        "胖子"
+      ],
+      "max_sentence": 35,
+      "banned": [],
+      "catchphrases": [
+        "差不多得了",
+        "我靠"
+      ]
+    },
+    "孟姐": {
+      "aliases": [
+        "孟姐",
+        "孟秋红"
+      ],
+      "max_sentence": 35,
+      "banned": [],
+      "catchphrases": [
+        "你算算",
+        "叹了口气"
+      ]
+    },
+    "许朵朵": {
+      "aliases": [
+        "许朵朵",
+        "朵朵"
+      ],
+      "max_sentence": 35,
+      "banned": [],
+      "catchphrases": [
+        "我的天"
+      ]
+    },
+    "孙立": {
+      "aliases": [
+        "孙立"
+      ],
+      "max_sentence": 35,
+      "banned": [],
+      "catchphrases": [
+        "确实有这一条"
+      ]
+    },
+    "胡阿姨": {
+      "aliases": [
+        "胡阿姨"
+      ],
+      "max_sentence": 35,
+      "banned": [],
+      "catchphrases": [
+        "老姐妹"
+      ]
+    },
+    "马涛": {
+      "aliases": [
+        "马涛"
+      ],
+      "max_sentence": 35,
+      "banned": [],
+      "catchphrases": [
+        "插一句",
+        "有种"
+      ]
+    }
+  }
+}

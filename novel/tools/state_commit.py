@@ -192,7 +192,8 @@ def render(st):
 
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("cmd", choices=["init", "check", "commit", "render"])
+    ap.add_argument("cmd", choices=["init", "check", "commit", "render", "amend"],
+                    help="amend：章节重写后修订已入账章节的记录（摘要/事件/类型），并可补登新角色与属性")
     ap.add_argument("delta", nargs="?")
     a = ap.parse_args()
     if a.cmd == "init":
@@ -210,6 +211,29 @@ def main():
     if not a.delta:
         sys.exit("需要 delta 文件")
     d = json.loads(Path(a.delta).read_text(encoding="utf-8"))
+    if a.cmd == "amend":
+        idx = next((i for i, c in enumerate(st["chapters"]) if c["chapter"] == d.get("chapter")), None)
+        if idx is None:
+            sys.exit(f"[error] 第 {d.get('chapter')} 章尚未入账，不能 amend")
+        rec = st["chapters"][idx]
+        for k in ("title", "story_date", "summary", "change_type", "payoff_type", "hook_type", "events"):
+            if k in d:
+                rec[k] = d[k]
+        if rec["change_type"] not in CHANGE or rec["hook_type"] not in HOOKS:
+            sys.exit("[error] change_type / hook_type 不合法")
+        for c in d.get("characters", []):
+            if c.get("new"):
+                if c["id"] in st["characters"]:
+                    sys.exit(f"[error] 角色 {c['id']} 已存在")
+                st["characters"][c["id"]] = {"id": c["id"], "name": c["name"], "role": c.get("role", ""),
+                                             "first": rec["chapter"], "last_seen": rec["chapter"], "attrs": {}, "knows": []}
+            elif c["id"] not in st["characters"]:
+                sys.exit(f"[error] 未知角色 {c['id']}")
+            st["characters"][c["id"]]["attrs"].update(c.get("set", {}))
+        save(st)
+        render(st)
+        print(f"第 {rec['chapter']} 章记录已修订")
+        return
     errs, warns = validate(st, d)
     for w in warns:
         print(f"[warn] {w}")
