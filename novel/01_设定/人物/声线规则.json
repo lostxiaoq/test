@@ -163,6 +163,37 @@
         "林经理",
         "走着瞧"
       ]
+    },
+    "钱满仓": {
+      "aliases": [
+        "钱满仓"
+      ],
+      "max_sentence": 35,
+      "banned": [],
+      "catchphrases": [
+        "都是自己人",
+        "兄弟"
+      ]
+    },
+    "李响": {
+      "aliases": [
+        "李响"
+      ],
+      "max_sentence": 35,
+      "banned": [],
+      "catchphrases": [
+        "RSRP"
+      ]
+    },
+    "杨大海": {
+      "aliases": [
+        "杨大海"
+      ],
+      "max_sentence": 40,
+      "banned": [],
+      "catchphrases": [
+        "老子"
+      ]
     }
   }
 }
