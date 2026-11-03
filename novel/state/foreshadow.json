@@ -65,9 +65,10 @@
     "payoff_plan": "第7章",
     "priority": "高",
     "planted": 2,
-    "last_touch": 2,
-    "status": "活跃",
-    "log": []
+    "last_touch": 7,
+    "status": "已回收",
+    "log": [],
+    "paid": 7
   },
   "F012": {
     "id": "F012",
@@ -106,7 +107,41 @@
     "payoff_plan": "弧3揭开幕后",
     "priority": "高",
     "planted": 6,
-    "last_touch": 6,
+    "last_touch": 9,
+    "status": "活跃",
+    "log": [
+      "第9章：满仓通讯的人第一次正面出现：送油、造谣蓝家盒子明年涨价"
+    ]
+  },
+  "F014": {
+    "id": "F014",
+    "desc": "红家已和西苑新村物业签下后门场地一个月",
+    "payoff_plan": "第8章及携转战",
+    "priority": "中",
+    "planted": 7,
+    "last_touch": 8,
+    "status": "活跃",
+    "log": [
+      "第8章：后门场地让给红家，弱电井被物业收回平等开放"
+    ]
+  },
+  "F015": {
+    "id": "F015",
+    "desc": "高俊'走着瞧'，红家将在携转战卷土重来",
+    "payoff_plan": "弧3",
+    "priority": "中",
+    "planted": 8,
+    "last_touch": 8,
+    "status": "活跃",
+    "log": []
+  },
+  "F016": {
+    "id": "F016",
+    "desc": "赵启明在市公司会上把城西盒子说成'区公司统一部署'",
+    "payoff_plan": "第2卷终局",
+    "priority": "中",
+    "planted": 9,
+    "last_touch": 9,
     "status": "活跃",
     "log": []
   }

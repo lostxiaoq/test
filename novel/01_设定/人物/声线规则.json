@@ -152,6 +152,17 @@
       "catchphrases": [
         "少来这套"
       ]
+    },
+    "高俊": {
+      "aliases": [
+        "高俊"
+      ],
+      "max_sentence": 35,
+      "banned": [],
+      "catchphrases": [
+        "林经理",
+        "走着瞧"
+      ]
     }
   }
 }
