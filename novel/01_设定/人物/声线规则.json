@@ -194,6 +194,28 @@
       "catchphrases": [
         "老子"
       ]
+    },
+    "何志远": {
+      "aliases": [
+        "何志远"
+      ],
+      "max_sentence": 35,
+      "banned": [],
+      "catchphrases": [
+        "我说实话",
+        "我什么都没说"
+      ]
+    },
+    "吴德昌": {
+      "aliases": [
+        "吴德昌",
+        "吴老"
+      ],
+      "max_sentence": 35,
+      "banned": [],
+      "catchphrases": [
+        "我信"
+      ]
     }
   }
 }
