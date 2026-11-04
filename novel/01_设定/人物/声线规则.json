@@ -226,6 +226,26 @@
       "catchphrases": [
         "我只看单子"
       ]
+    },
+    "蒋涛": {
+      "aliases": [
+        "蒋涛"
+      ],
+      "max_sentence": 35,
+      "banned": [],
+      "catchphrases": [
+        "报了三回"
+      ]
+    },
+    "陈母": {
+      "aliases": [
+        "陈母"
+      ],
+      "max_sentence": 40,
+      "banned": [],
+      "catchphrases": [
+        "多吃点"
+      ]
     }
   }
 }
