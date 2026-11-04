@@ -44,10 +44,11 @@
     "payoff_plan": "第18章",
     "priority": "中",
     "planted": 1,
-    "last_touch": 15,
+    "last_touch": 17,
     "status": "活跃",
     "log": [
-      "第15章：老周拉开抽屉看了一眼申请书，又推回去"
+      "第15章：老周拉开抽屉看了一眼申请书，又推回去",
+      "第17章：老周摸出抽屉钥匙又揣回去"
     ]
   },
   "F008": {
@@ -80,9 +81,11 @@
     "payoff_plan": "弧2台风夜",
     "priority": "高",
     "planted": 3,
-    "last_touch": 3,
+    "last_touch": 17,
     "status": "活跃",
-    "log": []
+    "log": [
+      "第17章：灵溪下午雷雨又断了一回"
+    ]
   },
   "F004": {
     "id": "F004",
@@ -138,9 +141,11 @@
     "payoff_plan": "弧3",
     "priority": "中",
     "planted": 8,
-    "last_touch": 8,
+    "last_touch": 17,
     "status": "活跃",
-    "log": []
+    "log": [
+      "第17章：红家趁城西暂停受理抢走两户"
+    ]
   },
   "F016": {
     "id": "F016",
