@@ -216,6 +216,16 @@
       "catchphrases": [
         "我信"
       ]
+    },
+    "冯建国": {
+      "aliases": [
+        "冯建国"
+      ],
+      "max_sentence": 35,
+      "banned": [],
+      "catchphrases": [
+        "我只看单子"
+      ]
     }
   }
 }
